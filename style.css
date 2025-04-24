@@ -1,0 +1,124 @@
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #121212;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+button.cta {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Trending Videos */
+.trending-videos {
+    padding: 20px;
+}
+
+.video-carousel {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.video-card {
+    width: 250px;
+    margin-right: 20px;
+}
+
+.video-card img {
+    width: 100%;
+}
+
+.video-info {
+    padding: 10px;
+}
+
+/* Product Section */
+.product-spotlight {
+    padding: 20px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #1c1c1c;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+}
+
+/* Mannequin Viewer */
+.mannequin-viewer {
+    padding: 20px;
+}
+
+.room-options button {
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #444;
+    color: white;
+    border: none;
+}
+
+.mannequin-container {
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
